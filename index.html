@@ -11,14 +11,14 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body class="m-0 p-0 overflow-x-hidden">
+<body class="m-0 p-0 overflow-x-hidden ">
     <script src="https://cdn.tailwindcss.com"></script>
 
 
     <div
         class="navbar border-b-[8px] border-[#A0D9C1] bg-[#3b5d50] md:px-10 md:py-5 flex justify-between w-full items-center">
         <div class="nav-logo px-8 py-2 flex gap-2 items-center">
-            <p class="text-[#FEF9F3] text-[25px] cursor-pointer">Furni</p>
+            <p class="text-[#b8d8be] text-[30px] font-bold cursor-pointer">Furni</p>
             <p class="font-bold text-[30px] text-[#899E96] cursor-pointer ">.</p>
         </div>
         <div class="nav-icon block md:hidden px-8 py-2 flex">
@@ -28,8 +28,8 @@
             </span>
         </div>
 
-        <div class="nav-list hidden md:flex items-center gap-8   ">
-            <ul class=" text-[13px] text-white flex gap-5 ">
+        <div class="nav-list hidden md:flex items-center gap-8  ">
+            <ul class=" text-[13px] md:text-[15px] md:mr-8 text-white flex gap-5  ">
                 <li class="text-[#A0D9C1] hover:text-[#FEF9F3] transition font-bold cursor-pointer">Home</li>
                 <li class="text-[#A0D9C1] hover:text-[#FEF9F3] transition font-bold cursor-pointer">Shop</li>
                 <li class="text-[#A0D9C1] hover:text-[#FEF9F3] transition font-bold cursor-pointer">About Us</li>
@@ -51,38 +51,93 @@
 
     </div>
 
-    <div class="page-1 bg-[#3b5d50]">
-        <div class="text">
+    <div class="page-1 bg-[#3b5d50] py-8 px-5 md:px-10 md:py-[83px] md:grid md:grid-cols-2 ">
+        <div class="content md:pt-[100px] md:max-w-[480px] md:px-10 md:ml-28 lg:ml-10   ">
             <div class="header-text">
-                <p>Modern Interior Design Studio</p>
+                <p class="text-[#f9f1d2] text-[30px] font-bold mb-3 md:w-[500px] md:text-[45px] ">Modern Interior Design
+                    Studio</p>
             </div>
-            <div class="main-text">
-                <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit
+            <div class="main-text ">
+                <p class="text-[14px] text-[#8E8E8E] mb-5 leading-normal">Donec vitae odio quis nisl dapibus malesuada.
+                    Nullam ac aliquet velit. Aliquam vulputate velit
                     imperdiet dolor tempor tristique.</p>
             </div>
-        </div>
 
-        <div class="buttons">
-            <div class="shop">
-                <button>Shop Now</button>
-            </div>
-            <div class="explore">
-                <button>Explore</button>
-            </div>
-        </div>
-
-        <div class="image">
-            <img src="./pics/couch_page1.png" alt="">
-        </div>
-
-        <div class="dots">
-            <div
-                class="w-[270px] h-[200px] bg-[#3b5d50] bg-[radial-gradient(#ffffff33_3px,transparent_2px)] [background-size:30px_30px]">
+            <div class="buttons flex gap-5">
+                <div class="shop">
+                    <button
+                        class="bg-[#F9BF29] px-5 py-3 rounded-[40px] hover:bg-[#FFD700] hover:scale-[103%] transition duration-100 hover:shadow-[0_20px_50px_rgba(0,0,0,0.3)] ">Shop
+                        Now</button>
+                </div>
+                <div class="explore">
+                    <button
+                        class="px-7 py-3 rounded-[40px] border-2 border-[#6F887F] text-[#F9BF29] hover:border-[#FFBF2E] hover:shadow-[0_0_15px_rgba(255,191,46,0.5)] transition duration-100">Explore</button>
+                </div>
             </div>
         </div>
+
+        <div class="image relative mt-10 md:pt-[20px] md:pr-[20px] mt-[40px]">
+            <img class="z-10 relative mx-auto md:max-w-[550px]" src="./pics/couch_page1.png" alt="couch">
+            <div class="dots absolute -top-10 md:-top-1 right-[265px] z-0 ">
+                <div
+                    class="w-[270px] h-[200px] bg-[#3b5d50] bg-[radial-gradient(#ffffff33_3px,transparent_2px)] [background-size:30px_30px] absolute ">
+                </div>
+            </div>
+        </div>
+
+
 
     </div>
 
+
+    <div class="page-2">
+        <div class="content grid grid-cols-1">
+            <div class="text-content">
+                <div class="header">
+                    <h3>Crafted with excellent material.</h3>
+                </div>
+                <div class="main">
+                    <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit
+                        imperdiet dolor tempor tristique.</p>
+                </div>
+                <div class="button">
+                    <button class="bg-black rounded-[40px] py-3 px-6 text-white">Explore</button>
+                </div>
+            </div>
+
+            <div class="cards text-center">
+                <div class="card">
+                    <img src="./pics/product-1-page-2.png" alt="">
+                    <div class="content">
+                        <div class="name">
+                            <p>Nordic Chair</p>
+                        </div>
+                        <div class="price">$50.00</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./pics/product-2.png" alt="">
+                    <div class="content">
+                        <div class="name">
+                            <p>Kruzo Aero Chair</p>
+                        </div>
+                        <div class="price">$78.00</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./pics/product-3.png" alt="">
+                    <div class="content">
+                        <div class="name">
+                            <p>Ergonomic Chair</p>
+                        </div>
+                        <div class="price">$43.00</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="./main.js"></script>
 
