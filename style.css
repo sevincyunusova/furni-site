@@ -6,7 +6,3 @@
 body{
     font-family: "Inter";
 }
-
-.card:hover{
-  .button:opacity: 100%;
-}
