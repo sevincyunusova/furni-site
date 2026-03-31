@@ -1,0 +1,38 @@
+
+
+    <div class="page-4 px-5 md:grid md:grid-cols-3 items-center  mx-auto">
+        <div class="left-button bg-[#CBD5D1] rounded-[50%] justify-center items-center  hidden md:block  flex">
+            <span class="material-symbols-outlined">
+                chevron_left
+            </span>
+        </div>
+
+        <div class="content">
+            <div class="header">
+                <p class="text-[25px] mb-5 text-center">Testimonials</p>
+            </div>
+            <div class="main text-[#6A6A6A] w-[100%]">
+                <p class="text-[15px]">“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam
+                    ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant
+                    morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat
+                    dui quis scelerisque.”</p>
+            </div>
+            <div class="footer">
+                <div class="image flex items-center justify-center mt-10">
+                    <img class="rounded-[50%] w-20 h-20" src="./pics/person-1.png" alt="Maria Jones">
+                </div>
+                <div class="name">
+                    <p class="text-center text-[15px]">Maria Jones</p>
+                </div>
+                <div class="job">
+                    <p class="text-center text-[14px] text-[#6A6A6A]">CEO, Co-Founder, XYZ Inc.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-button hidden md:block  flex items-center justify-center ">
+            <span class="bg-[#CBD5D1] rounded-[50%] p-3 justify-center items-center material-symbols-outlined">
+                chevron_right
+            </span>
+        </div>
+    </div>

@@ -89,15 +89,15 @@
 
     </div>
 
-    <div class="page-2 px-5 py-[75px]">
+    <div class="page-2 px-5 py-[75px] md:ml-10">
         <div
             class="content grid grid-cols-1 mx-auto md:grid md:grid-cols-2  items-center justify-center md:px-10 gap-10 md:pl-10">
             <div class="text-content md:w-[60%]">
                 <div class="header">
-                    <h3 class="text-[27px] mb-5">Crafted with excellent material.</h3>
+                    <h3 class="text-[27px] md:text-[35px] mb-5">Crafted with excellent material.</h3>
                 </div>
                 <div class="main">
-                    <p class="text-[#6A6A6A] text-[15px] leading-relaxed ">Donec vitae odio quis nisl dapibus malesuada.
+                    <p class="text-[#6A6A6A] text-[15px] md:text-[17px] leading-relaxed ">Donec vitae odio quis nisl dapibus malesuada.
                         Nullam ac aliquet velit. Aliquam vulputate velit
                         imperdiet dolor tempor tristique.</p>
                 </div>
@@ -156,7 +156,7 @@
         </div>
     </div>
 
-    <div class="page-3 px-5  md:grid grid-cols-2 mb-20">
+    <div class="page-3 px-5  md:grid grid-cols-2 mb-20 md:ml-40">
         <div class="md:px-7">
             <div class="header">
                 <div class="title">
@@ -238,40 +238,43 @@
         </div>
     </div>
 
-    <div class="page-4 px-5 md:grid md:grid-cols-3 items-center  mx-auto">
-        <div class="left-button bg-[#CBD5D1] rounded-[50%] justify-center items-center  hidden md:block  flex">
-            <span class="material-symbols-outlined">
-                chevron_left
-            </span>
+    <div class="page-4 px-5 py-8  mb-10 text-center items-center">
+
+        <div class="header mb-5">
+            <p class="text-[25px] md:text-[35px]">Testimonials</p>
         </div>
 
-        <div class="content">
-            <div class="header">
-                <p class="text-[25px] mb-5 text-center">Testimonials</p>
-            </div>
-            <div class="main text-[#6A6A6A] w-[100%]">
-                <p class="text-[15px]">“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam
-                    ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant
-                    morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat
-                    dui quis scelerisque.”</p>
-            </div>
-            <div class="footer">
-                <div class="image flex items-center justify-center mt-10">
-                    <img class="rounded-[50%] w-20 h-20" src="./pics/person-1.png" alt="Maria Jones">
-                </div>
-                <div class="name">
-                    <p class="text-center text-[15px]">Maria Jones</p>
-                </div>
-                <div class="job">
-                    <p class="text-center text-[14px] text-[#6A6A6A]">CEO, Co-Founder, XYZ Inc.</p>
-                </div>
-            </div>
-        </div>
 
-        <div class="right-button hidden md:block  flex items-center justify-center ">
-            <span class="bg-[#CBD5D1] rounded-[50%] p-3 justify-center items-center material-symbols-outlined">
-                chevron_right
-            </span>
+        <div class="flex">
+            <div id="left-button" class="button-left my-auto bg-[#CBD5D1] rounded-[50%] items-center p-2 hidden md:block cursor-pointer">
+                <span class="material-symbols-outlined">
+                    chevron_left
+                </span>
+            </div>
+
+            <div class="main mx-auto">
+                <div class="text">
+                    <p id="slider-text" class="text-[#6A6A6A] mb-10 max-w-[700px]">“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada.
+                        Nullam
+                        ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque
+                        habitant
+                        morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis
+                        volutpat
+                        dui quis scelerisque.”</p>
+                </div>
+                <div class="img">
+                    <img id="slider-image" class="rounded-[50%] w-20 h-20  mx-auto mb-5" src="./pics/person-1.png" alt="Maria Jones">
+                    <h4 id="slider-name">Maria Jones</h4>
+                    <p id="slider-job" class="text-[#6A6A6A]">CEO, Co-Founder, XYZ Inc.</p>
+                </div>
+
+            </div>
+
+            <div id="right-button" class="button-right my-auto bg-[#CBD5D1] rounded-[50%] items-center p-2 hidden md:block cursor-pointer">
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </div>
         </div>
     </div>
 
