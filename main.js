@@ -23,13 +23,13 @@ const slides = [
     },
     {
         text: "“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit.”",
-        img: "./pics/person-3.avif", // Digər şəkil yolu
+        img: "./pics/person-3.avif",
         name: "John Doe",
         role: "Design Director, ABC Agency"
     },
     {
         text: "“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit.”",
-        img: "./pics/person-4.avif", // Digər şəkil yolu
+        img: "./pics/person-4.avif", 
         name: "Sarah Smith",
         role: "Marketing Manager, Global Tech"
     }
