@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furni</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body class="m-0 p-0 overflow-x-hidden ">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <div
+        class="navbar border-b-[8px] border-[#A0D9C1] bg-[#3b5d50] md:px-10 md:py-5 flex justify-between w-full items-center">
+        <div class="nav-logo px-8 py-2 flex gap-2 items-center">
+            <p class="text-[#b8d8be] text-[30px] font-bold cursor-pointer">Furni</p>
+            <p class="font-bold text-[30px] text-[#899E96] cursor-pointer ">.</p>
+        </div>
+        <div class="nav-icon block md:hidden px-8 py-2 flex">
+            <span id="navIcon"
+                class="material-symbols-outlined text-[#899E96] text-[35px] items-center cursor-pointer hover:scale-110 transition-transform">
+                menu
+            </span>
+        </div>
+
+        <div class="nav-list hidden md:flex items-center gap-8  ">
+            <ul class=" text-[13px] md:text-[15px] md:mr-8 text-white flex gap-5  ">
+                <li class="text-[#A0D9C1] hover:text-[#FEF9F3] transition font-bold cursor-pointer">
+                    <a href="./index.html">Home</a>
+                </li>
+                <li class="text-[#A0D9C1] hover:text-[#FEF9F3] transition font-bold cursor-pointer">
+                    <a href="./shop.html">
+                        <a href="./shop.html">Shop</a>
+                    </a>
+                </li>
+                <li class="text-[#A0D9C1] hover:text-[#FEF9F3] transition font-bold cursor-pointer">
+                    <a href="./aboutus.html">About Us</a>
+                </li>
+                <li class="text-[#fff] hover:text-[#FEF9F3] transition font-bold cursor-pointer">Services</li>
+                <li class="text-[#A0D9C1] hover:text-[#FEF9F3] transition font-bold cursor-pointer">
+                    <a href="./blog.html">Blog</a>
+                </li>
+                <li class="text-[#A0D9C1] hover:text-[#FEF9F3] transition font-bold cursor-pointer">Contact Us</li>
+            </ul>
+
+            <div class="icons flex gap-3 text-[12px] text-white">
+                <span class="material-symbols-outlined cursor-pointer">
+                    person
+                </span>
+                <span class="material-symbols-outlined cursor-pointer">
+                    shopping_cart
+                </span>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="page-1 bg-[#3b5d50] py-8 px-5 md:px-10 md:py-[83px] md:grid md:grid-cols-2 ">
+        <div class="content md:pt-[100px] md:max-w-[480px] md:px-10 md:ml-28 lg:ml-10   ">
+            <div class="header-text">
+                <p class="text-[#f9f1d2] text-[30px] font-bold mb-3 md:w-[500px] md:text-[45px] ">Services</p>
+            </div>
+            <div class="main-text ">
+                <p class="text-[14px] text-[#8E8E8E] mb-5 leading-normal">Donec vitae odio quis nisl dapibus malesuada.
+                    Nullam ac aliquet velit. Aliquam vulputate velit
+                    imperdiet dolor tempor tristique.</p>
+            </div>
+
+            <div class="buttons flex gap-5">
+                <div class="shop">
+                    <button
+                        class="bg-[#F9BF29] px-5 py-3 rounded-[40px] hover:bg-[#FFD700] hover:scale-[103%] transition duration-100 hover:shadow-[0_20px_50px_rgba(0,0,0,0.3)] ">Shop
+                        Now</button>
+                </div>
+                <div class="explore">
+                    <button
+                        class="px-7 py-3 rounded-[40px] border-2 border-[#6F887F] text-[#F9BF29] hover:border-[#FFBF2E] hover:shadow-[0_0_15px_rgba(255,191,46,0.5)] transition duration-100">Explore</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="image relative mt-10 md:pt-[20px] md:pr-[20px] mt-[40px]">
+            <img class="z-10 relative mx-auto md:max-w-[550px]" src="./pics/couch_page1.png" alt="couch">
+            <div class="dots absolute -top-10 md:-top-1 right-[265px] z-0 ">
+                <div
+                    class="w-[270px] h-[200px] bg-[#3b5d50] bg-[radial-gradient(#ffffff33_3px,transparent_2px)] [background-size:30px_30px] absolute ">
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="page-2">
+        <div
+            class="content grid grid-cols-2 px-3 sm:px-10 md:grid-cols-3 md:px-[50px] lg:grid-cols-4 gap- mt-[150px] mb-[100px] lg:px-[150px]">
+            <div class="card hover:shadow-2xl hover:scale-105 duration-300 p-5 transition mb-20">
+                <div class="icon">
+                    <span class="text-[25px] bg-[#CBD5D1] rounded-[50%] p-2 material-symbols-outlined ">
+                        local_shipping
+                    </span>
+                </div>
+                <div class="card-title">
+                    <p class="text-[14px] mt-4">Fast & Free Shipping</p>
+                </div>
+                <div class="card-txt">
+                    <p class="text-[#6A6A6A] mt-1">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
+                        velit. Aliquam vulputate.</p>
+                </div>
+            </div>
+
+            <div class="card mb-20 hover:shadow-2xl hover:scale-105 duration-300 transition p-5">
+                <div class="icon">
+                    <span class="text-[25px]  bg-[#CBD5D1] rounded-[50%] p-2  material-symbols-outlined">
+                        local_mall
+                    </span>
+                </div>
+                <div class="card-title">
+                    <p class="text-[14px] mt-4">Easy to Shop</p>
+                </div>
+                <div class="card-txt">
+                    <p class="text-[#6A6A6A] mt-1">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
+                        velit. Aliquam vulputate.</p>
+                </div>
+            </div>
+
+            <div class="card mb-20 hover:shadow-2xl hover:scale-105 duration-300 transition p-5">
+                <div class="icon">
+                    <span class=" text-[25px]  bg-[#CBD5D1] rounded-[50%] p-2  material-symbols-outlined">
+                        support
+                    </span>
+                </div>
+                <div class="card-title">
+                    <p class="text-[14px] mt-4">24/7 Support
+                    </p>
+                </div>
+                <div class="card-txt">
+                    <p class="text-[#6A6A6A] mt-1">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
+                        velit. Aliquam vulputate.</p>
+                </div>
+            </div>
+
+            <div class="card mb-20  hover:shadow-2xl hover:scale-105 duration-300 transition p-5">
+                <div class="icon">
+                    <span class="text-[25px]  bg-[#CBD5D1] rounded-[50%] p-2  material-symbols-outlined">
+                        update
+                    </span>
+                </div>
+                <div class="card-title">
+                    <p class="text-[14px] mt-4">Hassle Free Returns
+                    </p>
+                </div>
+                <div class="card-txt">
+                    <p class="text-[#6A6A6A] mt-1">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
+                        velit. Aliquam vulputate.</p>
+                </div>
+            </div>
+
+
+            <div class="card mb-20  hover:shadow-2xl hover:scale-105 duration-300 transition p-5">
+                <div class="icon">
+                    <span class="text-[25px]  bg-[#CBD5D1] rounded-[50%] p-2  material-symbols-outlined">
+                        update
+                    </span>
+                </div>
+                <div class="card-title">
+                    <p class="text-[14px] mt-4">Hassle Free Returns
+                    </p>
+                </div>
+                <div class="card-txt">
+                    <p class="text-[#6A6A6A] mt-1">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
+                        velit. Aliquam vulputate.</p>
+                </div>
+            </div>
+
+            <div class="card mb-20  hover:shadow-2xl hover:scale-105 duration-300 transition p-5">
+                <div class="icon">
+                    <span class=" text-[25px]  bg-[#CBD5D1] rounded-[50%] p-2  material-symbols-outlined">
+                        support
+                    </span>
+                </div>
+                <div class="card-title">
+                    <p class="text-[14px] mt-4">24/7 Support
+                    </p>
+                </div>
+                <div class="card-txt">
+                    <p class="text-[#6A6A6A] mt-1">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
+                        velit. Aliquam vulputate.</p>
+                </div>
+            </div>
+
+            <div class="card mb-20  hover:shadow-2xl hover:scale-105 duration-300 transition p-5">
+                <div class="icon">
+                    <span class="text-[25px]  bg-[#CBD5D1] rounded-[50%] p-2  material-symbols-outlined">
+                        local_mall
+                    </span>
+                </div>
+                <div class="card-title">
+                    <p class="text-[14px] mt-4">Easy to Shop</p>
+                </div>
+                <div class="card-txt">
+                    <p class="text-[#6A6A6A] mt-1">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
+                        velit. Aliquam vulputate.</p>
+                </div>
+            </div>
+
+            <div class="card mb-20  hover:shadow-2xl hover:scale-105 duration-300 transition p-5">
+                <div class="icon">
+                    <span class="text-[25px] bg-[#CBD5D1] rounded-[50%] p-2 material-symbols-outlined ">
+                        local_shipping
+                    </span>
+                </div>
+                <div class="card-title">
+                    <p class="text-[14px] mt-4">Fast & Free Shipping</p>
+                </div>
+                <div class="card-txt">
+                    <p class="text-[#6A6A6A] mt-1">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
+                        velit. Aliquam vulputate.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-3 px-5 py-[75px] md:ml-10 md:mb-20 md:mt-10">
+        <div
+            class="content grid grid-cols-1 mx-auto md:grid md:grid-cols-2  items-center justify-center md:px-10 gap-10 md:pl-10">
+            <div class="text-content md:w-[60%]">
+                <div class="header">
+                    <h3 class="text-[27px] md:text-[35px] mb-5">Crafted with excellent material.</h3>
+                </div>
+                <div class="main">
+                    <p class="text-[#6A6A6A] text-[15px] md:text-[17px] leading-relaxed ">Donec vitae odio quis nisl
+                        dapibus malesuada.
+                        Nullam ac aliquet velit. Aliquam vulputate velit
+                        imperdiet dolor tempor tristique.</p>
+                </div>
+                <div class="button">
+                    <button
+                        class="bg-black rounded-[40px] py-3 px-6 text-white mt-5 hover:shadow-[0_0_20px_0_rgba(0,0,0,0.4)]">Explore</button>
+                </div>
+            </div>
+
+            <div class="cards md:mr-30 text-center mt-5 md:grid grid-cols-3 gap-10 items-center justify-center">
+                <div
+                    class="card  transition-all duration-200 rounded-2xl hover:bg-[#dce5e4] hover:p-5 items-center min-w-[250px]">
+                    <img class="group-hover:-translate-y-6 " src="./pics/product-1-page-2.png" alt="">
+                    <div class="content">
+                        <div class="name">
+                            <p>Nordic Chair</p>
+                        </div>
+                        <div class="price font-bold mt-2">$50.00</div>
+                    </div>
+                    <div class="opacity-0 hover:opacity-[100%] flex items-center transition">
+                        <button
+                            class="mt-3 bg-[#000] rounded-[50%] text-white text-2xl px-4 py-2 flex justify-center text-center items-center">+</button>
+                    </div>
+                </div>
+
+                <div
+                    class="card mt-10 transition-all duration-200 rounded-2xl hover:bg-[#dce5e4] hover:p-5 items-center min-w-[250px]">
+                    <img src="./pics/product-2.png" class="group-hover:-translate-y-6" alt="">
+                    <div class="content">
+                        <div class="name">
+                            <p>Kruzo Aero Chair</p>
+                        </div>
+                        <div class="price  font-bold mt-2">$78.00</div>
+                    </div>
+                    <div class="opacity-0 hover:opacity-[100%] flex items-center transition">
+                        <button
+                            class="mt-3 bg-[#000] rounded-[50%] text-white text-2xl px-4 py-2 flex justify-center text-center items-center">+</button>
+                    </div>
+                </div>
+
+                <div
+                    class="card group items-center mt-10 transition-all duration-200 rounded-2xl hover:bg-[#dce5e4] hover:p-5 min-w-[250px]">
+                    <img class="group-hover:-translate-y-6" src="./pics/product-3.png" alt="">
+                    <div class="content">
+                        <div class="name">
+                            <p>Ergonomic Chair</p>
+                        </div>
+                        <div class="price  font-bold mt-2">$43.00</div>
+                    </div>
+                    <div class="opacity-0 hover:opacity-[100%] flex items-center transition">
+                        <button
+                            class="mt-3 bg-[#000] rounded-[50%] text-white text-2xl px-4 py-2 flex justify-center text-center items-center">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-4 bg-[#EFF2F1] px-5 py-[200px]  mb-10 text-center items-center">
+
+        <div class="header mb-5">
+            <p class="text-[25px] md:text-[35px]">Testimonials</p>
+        </div>
+
+
+        <div class="flex px-[150px]">
+            <div id="left-button"
+                class="button-left my-auto bg-[#CBD5D1] rounded-[50%] items-center p-2 hidden md:block cursor-pointer">
+                <span class="material-symbols-outlined my-auto">
+                    chevron_left
+                </span>
+            </div>
+
+            <div class="main mx-auto">
+                <div class="text">
+                    <p id="slider-text" class="text-[#6A6A6A] mb-10 max-w-[700px]">“Donec facilisis quam ut purus rutrum
+                        lobortis. Donec vitae odio quis nisl dapibus malesuada.
+                        Nullam
+                        ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque
+                        habitant
+                        morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis
+                        volutpat
+                        dui quis scelerisque.”</p>
+                </div>
+                <div class="img">
+                    <img id="slider-image" class="rounded-[50%] w-20 h-20  mx-auto mb-5" src="./pics/person-1.png"
+                        alt="Maria Jones">
+                    <h4 id="slider-name">Maria Jones</h4>
+                    <p id="slider-job" class="text-[#6A6A6A]">CEO, Co-Founder, XYZ Inc.</p>
+                </div>
+
+            </div>
+
+            <div id="right-button"
+                class="button-right my-auto bg-[#CBD5D1] rounded-[50%] items-center p-2 hidden md:block cursor-pointer">
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer px-7 md:px-[170px] py-5">
+        <!-- <img src="https://themewagon.github.io/furni/images/sofa.png" alt=""> -->
+        <div class="subs">
+            <div class="header flex gap-3 md:flex md:justify-center">
+                <span class="material-symbols-outlined text-gray-400">
+                    mail
+                </span>
+                <p>Subscribe to NewsLetter</p>
+            </div>
+
+            <div class="input mb-3 md:flex gap-5 my-auto items-center md:justify-center">
+                <input class="border border-gray-400 rounded-md p-1 px-2  mt-3" type="text"
+                    placeholder="Enter your name">
+                <div>
+                    <input class="border border-gray-400 rounded-md p-1 px-2" type="text"
+                        placeholder="Enter your email">
+                    <button>
+                        <span class="material-symbols-outlined bg-[#314D43] text-white px-4 py-3 ml-2 rounded-2xl">
+                            send
+                        </span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="main">
+                <div class="logo">
+                    <p class="text-[#3B5D50] text-4xl mt-10 md:mt-20 mb-3">Furni.</p>
+                </div>
+
+                <div class="md:grid md:grid-cols-2">
+                    <div>
+                        <p class="text-[#6a6a6a] max-w-[450px]">Donec facilisis quam ut purus rutrum lobortis. Donec
+                            vitae odio quis
+                            nisl
+                            dapibus malesuada.
+                            Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
+                            Pellentesque
+                            habitant</p>
+
+                        <div class="buttons mt-5 mb-10">
+                            <i
+                                class="fa-brands fa-facebook-f bg-[#DCE5E4] hover:bg-[#314D43] text-[#314D43] hover:text-[#DCE5E4] transition rounded-[50%] w-9 h-8 px-3 py-2"></i>
+
+                            <i
+                                class="fa-brands fa-twitter bg-[#DCE5E4] hover:bg-[#314D43] text-[#314D43] hover:text-[#DCE5E4] transition rounded-[50%] w-9 h-8 px-3 py-2"></i>
+
+                            <i
+                                class="fa-brands fa-instagram bg-[#DCE5E4] hover:bg-[#314D43] text-[#314D43] hover:text-[#DCE5E4] transition rounded-[50%] w-9 h-8 px-3 py-2"></i>
+
+                            <i
+                                class="fa-brands fa-linkedin bg-[#DCE5E4] hover:bg-[#314D43] text-[#314D43] hover:text-[#DCE5E4] transition rounded-[50%] w-9 h-8 px-3 py-2"></i>
+                        </div>
+
+                    </div>
+
+                    <div class="list grid grid-cols-2 gap-5 md:grid-cols-4 mb-10">
+                        <div class="list-1 grid grid-cols-1 gap-2">
+                            <a class="hover:text-[#9A9797] transition " href="">About Us</a>
+                            <a class="hover:text-[#9A9797] transition " href="">Services</a>
+                            <a class="hover:text-[#9A9797] transition " href="">Blog</a>
+                            <a class="hover:text-[#9A9797] transition " href="">Contact Us</a>
+                        </div>
+
+                        <div class="list-2 grid grid-cols-1 gap-2">
+                            <a class="hover:text-[#9A9797] transition " href="">Support</a>
+                            <a class="hover:text-[#9A9797] transition " href="">Knowledge Base</a>
+                            <a class="hover:text-[#9A9797] transition " href="">Live Chat</a>
+                        </div>
+
+                        <div class="list-3 grid grid-cols-1 gap-2">
+                            <a class="hover:text-[#9A9797] transition " href="">Jobs</a>
+                            <a class="hover:text-[#9A9797] transition " href="">Our Team</a>
+                            <a class="hover:text-[#9A9797] transition " href="">Leadership</a>
+                            <a class="hover:text-[#9A9797] transition " href="">Privacy Policy</a>
+                        </div>
+
+                        <div class="list-4 grid grid-cols-1 gap-2">
+                            <a class="hover:text-[#9A9797] transition " href="">Nordic Chair</a>
+                            <a class="hover:text-[#9A9797] transition " href="">Kruzo Aero</a>
+                            <a class="hover:text-[#9A9797] transition " href="">Ergonomic Chair</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full border border-3 border-[#EEF0F2]"> </div>
+
+                <div class="footer mt-5 text-center">
+                    <div>
+                        <p class="text-gray-500">Copyright ©2026. All Rights Reserved. — Designed with love by</p>
+                    </div>
+                    <div>
+                        <p class="cursor-pointer">Terms & Conditions</p>
+                        <p class="cursor-pointer">Privacy Policy</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
