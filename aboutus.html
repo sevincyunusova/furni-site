@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furni</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <div
+        class="navbar border-b-[8px] border-[#A0D9C1] bg-[#3b5d50] md:px-10 md:py-5 flex justify-between w-full items-center">
+        <div class="nav-logo px-8 py-2 flex gap-2 items-center">
+            <p class="text-[#b8d8be] text-[30px] font-bold cursor-pointer">Furni</p>
+            <p class="font-bold text-[30px] text-[#899E96] cursor-pointer ">.</p>
+        </div>
+        <div class="nav-icon block md:hidden px-8 py-2 flex">
+            <span id="navIcon"
+                class="material-symbols-outlined text-[#899E96] text-[35px] items-center cursor-pointer hover:scale-110 transition-transform">
+                menu
+            </span>
+        </div>
+
+        <div class="nav-list hidden md:flex items-center gap-8  ">
+            <ul class=" text-[13px] md:text-[15px] md:mr-8 text-white flex gap-5  ">
+                <li class="text-[#A0D9C1] hover:text-[#FEF9F3] transition font-bold cursor-pointer">Home</li>
+                <li class="text-[#A0D9C1] hover:text-[#FEF9F3] transition font-bold cursor-pointer">
+                    <a href="./shop.html">Shop</a>
+                </li>
+                <li class="text-[#A0D9C1] hover:text-[#FEF9F3] transition font-bold cursor-pointer">About Us</li>
+                <li class="text-[#A0D9C1] hover:text-[#FEF9F3] transition font-bold cursor-pointer">Services</li>
+                <li class="text-[#A0D9C1] hover:text-[#FEF9F3] transition font-bold cursor-pointer">Blog</li>
+                <li class="text-[#A0D9C1] hover:text-[#FEF9F3] transition font-bold cursor-pointer">Contact Us</li>
+            </ul>
+
+            <div class="icons flex gap-3 text-[12px] text-white">
+                <span class="material-symbols-outlined cursor-pointer">
+                    person
+                </span>
+                <span class="material-symbols-outlined cursor-pointer">
+                    shopping_cart
+                </span>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="page-1 bg-[#3b5d50] py-8 px-5 md:px-10 md:py-[83px] md:grid md:grid-cols-2 ">
+        <div class="content md:pt-[100px] md:max-w-[480px] md:px-10 md:ml-28 lg:ml-10   ">
+            <div class="header-text">
+                <p class="text-[#f9f1d2] text-[30px] font-bold mb-3 md:w-[500px] md:text-[45px] ">Modern Interior Design
+                    Studio</p>
+            </div>
+            <div class="main-text ">
+                <p class="text-[14px] text-[#8E8E8E] mb-5 leading-normal">Donec vitae odio quis nisl dapibus malesuada.
+                    Nullam ac aliquet velit. Aliquam vulputate velit
+                    imperdiet dolor tempor tristique.</p>
+            </div>
+
+            <div class="buttons flex gap-5">
+                <div class="shop">
+                    <button
+                        class="bg-[#F9BF29] px-5 py-3 rounded-[40px] hover:bg-[#FFD700] hover:scale-[103%] transition duration-100 hover:shadow-[0_20px_50px_rgba(0,0,0,0.3)] ">Shop
+                        Now</button>
+                </div>
+                <div class="explore">
+                    <button
+                        class="px-7 py-3 rounded-[40px] border-2 border-[#6F887F] text-[#F9BF29] hover:border-[#FFBF2E] hover:shadow-[0_0_15px_rgba(255,191,46,0.5)] transition duration-100">Explore</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="image relative mt-10 md:pt-[20px] md:pr-[20px] mt-[40px]">
+            <img class="z-10 relative mx-auto md:max-w-[550px]" src="./pics/couch_page1.png" alt="couch">
+            <div class="dots absolute -top-10 md:-top-1 right-[265px] z-0 ">
+                <div
+                    class="w-[270px] h-[200px] bg-[#3b5d50] bg-[radial-gradient(#ffffff33_3px,transparent_2px)] [background-size:30px_30px] absolute ">
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="page-2 px-5  md:grid grid-cols-2 mb-20 md:ml-40">
+        <div class="md:px-7">
+            <div class="header">
+                <div class="title">
+                    <p class="text-3xl mb-2">Why Choose Us</p>
+                </div>
+                <div class="sub">
+                    <p class="text-[#6A6A6A] text-[15px] max-w-[470px]">Donec vitae odio quis nisl dapibus malesuada.
+                        Nullam ac aliquet velit. Aliquam vulputate velit
+                        imperdiet dolor tempor tristique.</p>
+                </div>
+            </div>
+            <div class="content grid grid-cols-2 gap-5 mt-[50px]">
+                <div class="card">
+                    <div class="icon">
+                        <span class="text-[25px] bg-[#CBD5D1] rounded-[50%] p-2 material-symbols-outlined ">
+                            local_shipping
+                        </span>
+                    </div>
+                    <div class="card-title">
+                        <p class="text-[14px] mt-4">Fast & Free Shipping</p>
+                    </div>
+                    <div class="card-txt">
+                        <p class="text-[#6A6A6A] mt-1">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
+                            velit. Aliquam vulputate.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="icon">
+                        <span class="text-[25px]  bg-[#CBD5D1] rounded-[50%] p-2  material-symbols-outlined">
+                            local_mall
+                        </span>
+                    </div>
+                    <div class="card-title">
+                        <p class="text-[14px] mt-4">Easy to Shop</p>
+                    </div>
+                    <div class="card-txt">
+                        <p class="text-[#6A6A6A] mt-1">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
+                            velit. Aliquam vulputate.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="icon">
+                        <span class=" text-[25px]  bg-[#CBD5D1] rounded-[50%] p-2  material-symbols-outlined">
+                            support
+                        </span>
+                    </div>
+                    <div class="card-title">
+                        <p class="text-[14px] mt-4">24/7 Support
+                        </p>
+                    </div>
+                    <div class="card-txt">
+                        <p class="text-[#6A6A6A] mt-1">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
+                            velit. Aliquam vulputate.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="icon">
+                        <span class="text-[25px]  bg-[#CBD5D1] rounded-[50%] p-2  material-symbols-outlined">
+                            update
+                        </span>
+                    </div>
+                    <div class="card-title">
+                        <p class="text-[14px] mt-4">Hassle Free Returns
+                        </p>
+                    </div>
+                    <div class="card-txt">
+                        <p class="text-[#6A6A6A] mt-1">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
+                            velit. Aliquam vulputate.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="photo flex gap-5 justify-center mt-10 md:mt-0 py-5">
+            <img class="max-w-[500px] h-[500px] rounded-xl" src="./pics/why-choose-us-img.jpg" alt="sofa">
+        </div>
+    </div>
+
+    <div class="page-3">
+        <div class="header">
+            <h3>Our Team</h3>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="" alt="">
+            </div>
+            <div class="title">
+                <h4>Lawson Arnold</h4>
+            </div>
+            <div class="sub-title">
+                <h5>CEO, Founder, Atty.</h5>
+            </div>
+            <div class="text">
+                <p>Seperated they live in. Seperated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            </div>
+            <div class="footer">
+                <a href="Learn More"></a>
+            </div>
+        </div>
+    </div>
+
+
+</body>
